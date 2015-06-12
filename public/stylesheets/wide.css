@@ -24,3 +24,26 @@ footer {
     clear: both;
     display: block;
 }
+
+.credits {
+    width: 500px;
+    overflow: hidden; /* will contain if #first is longer than #second */
+    height: 125px;
+}
+
+.avatar {
+    width: 200px;
+    float:left; /* add this */
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+}
+
+.information span {
+    vertical-align:middle;
+    text-align: left;
+    display: table-cell;
+    height: 125px;
+}
