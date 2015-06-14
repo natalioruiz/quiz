@@ -24,7 +24,7 @@
             </a>
         </td>
         <td>
-            <form method="post" action="quizes/<%= quizes[i].id %>?_method=DELETE">
+            <form method="post" action="/quizes/<%= quizes[i].id %>?_method=DELETE">
                 <button onClick="return confirm('Borrar: <%= quizes[i].pregunta %>');" type="submit">
                     borrar
                 </button>
